@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
+:root {
+  /* Colors: */
+  --unnamed-color-040404: #040404;
+  --unnamed-color-f1f1f1: #F1F1F1;
+  --unnamed-color-3b486d: #3B486D;
+  --unnamed-color-858688: #858688;
+  --unnamed-color-ffffff: #FFFFFF;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  /* Font/text values */
+  --unnamed-font-family-tajawal: 'Tajawal';
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-size-24: 24px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-font-size-36: 36px;
+  --unnamed-font-size-92: 92px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing--0-24: -0.24px;
+  --unnamed-character-spacing-4-8: 4.8px;
+  --unnamed-character-spacing--0-32: -0.32px;
+  --unnamed-line-spacing-30: 30px;
+  --unnamed-line-spacing-38: 38px;
+  --unnamed-line-spacing-42: 42px;
+  --unnamed-line-spacing-43: 43px;
+  --unnamed-text-transform-uppercase: uppercase;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
-  to {
-    transform: rotate(360deg);
+  .App {
+    display: flex;
+    width: 100%;
+    height: 100vh;
   }
-}
+  body {
+    font-family: 'Tajawal', sans-serif;
+  }
