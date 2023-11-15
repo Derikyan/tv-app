@@ -3,7 +3,7 @@ import './carousel.scss';
 import MultiCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-const Carousel = ({films}) => {
+const Carousel = ({films, changeMovie}) => {
 
   const responsive = {
     superLargeDesktop: {
@@ -23,7 +23,7 @@ const Carousel = ({films}) => {
       items: 2
     }
   };
-
+  
   const [imagePaths, setImagePaths] = useState([]);
 
   useEffect(() => {
@@ -42,12 +42,12 @@ const Carousel = ({films}) => {
 
   return (
     <>
-      <span className='trending'>Trending now</span>
       <MultiCarousel responsive={responsive}>
         {films.map((film,index) => {
           return (
             <div className='carouselItem' key={Math.floor() * film.id} 
-            style={{ backgroundImage: `url(${imagePaths[index]})` }}>
+              onClick={() => changeMovie(film.Id)}
+              style={{ backgroundImage: `url(${imagePaths[index]})` }}>
             </div>
             )
         })}

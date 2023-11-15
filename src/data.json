@@ -9,6 +9,7 @@
 		"MpaRating": "18+",
 		"Category": "Movie",
 		"Duration": "6000",
+		"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
 		"Description": "Info About it"
 	},
 	"TendingNow": [
