@@ -1,13 +1,12 @@
 .carouselItem{
-    width: 150px;
+    width: 195px;
     height: 296px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../../assets/https_specials-1.png');
-    cursor: pointer;
     background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 .react-multi-carousel-list{
-    background-color: var(--unnamed-color-040404);
+    background-color: var(--color-040404);
     padding: 3px;
 }

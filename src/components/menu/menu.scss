@@ -2,13 +2,13 @@
     position: relative;
     width: 157px;
     min-height: 100vh;
-    z-index: 2;
-    background-color: var(--unnamed-color-040404);
+    z-index: 1001;
+    background-color: var(--color-040404);
     &:hover{
         .menuShadow{
             width: 50vw;
             opacity: 0.8;
-            background-image: linear-gradient(to right, var(--unnamed-color-040404) 90%, transparent);
+            background-image: linear-gradient(to right, var(--color-040404) 90%, transparent);
         }
         .menuContent{
             width: 390px;
@@ -25,7 +25,7 @@
                         &.active{
                             .menuIconBack::before{
                                 content: '';
-                                outline: 20rem solid var(--unnamed-color-3b486d);
+                                outline: 500px solid var(--color-3b486d);
                                 outline-offset: -15px;
                                 border-radius: 50%;
                             }
@@ -51,14 +51,14 @@
         position: absolute;
         inset: 0;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to right, var(--unnamed-color-040404) 80%, transparent);
+        background-image: linear-gradient(to right, var(--color-040404) 80%, transparent);
         z-index: -1;
         opacity: 0;
         transition: all 500ms ease-in; 
     }
 
     .menuContent{
-        background-color: var(--unnamed-color-040404);
+        background-color: var(--color-040404);
         padding: 3.75rem 2.375rem;
         position: absolute;
         inset: 0;
@@ -88,9 +88,9 @@
                     border-radius: 50%;
                 }
                 h3{
-                    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-tajawal);
-                    letter-spacing: var(--unnamed-character-spacing--0-32);
-                    color: var(--unnamed-color-f1f1f1);
+                    font: var(--font-style-normal) normal var(--font-weight-bold) var(--font-size-32)/var(--line-spacing-30) var(--font-family-tajawal);
+                    letter-spacing: var(--character-spacing--0-32);
+                    color: var(--color-f1f1f1);
                     letter-spacing: -0.32px;
                 }
             }
@@ -117,7 +117,7 @@
                             position: absolute;
                             inset: 0;
                             aspect-ratio: 1;
-                            outline: 2rem solid var(--unnamed-color-3b486d);
+                            outline: 32px solid var(--color-3b486d);
                             opacity: 0.56;
                             outline-offset: -15px;
                             border-radius: 50%;
@@ -125,7 +125,7 @@
                         }
 
                         h2{
-                            font-weight: var(--unnamed-font-weight-bold);
+                            font-weight: var(--font-weight-bold);
                         }
                     }
 
@@ -144,10 +144,10 @@
                     h2{
                         opacity: 0;
                         pointer-events: none;
-                        font-size: var(--unnamed-font-size-36);
-                        font-weight: var(--unnamed-font-weight-normal);
-                        letter-spacing: var(--unnamed-character-spacing-0);
-                        color: var(--unnamed-color-f1f1f1);
+                        font-size: var(--font-size-36);
+                        font-weight: var(--font-weight-normal);
+                        letter-spacing: var(--character-spacing-0);
+                        color: var(--color-f1f1f1);
                     }
                 }
             }
@@ -162,11 +162,37 @@
             transition: opacity 500ms ease-in; 
 
             h4{
-                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-42) var(--unnamed-font-family-tajawal);
-                color: var(--unnamed-color-858688);
-                letter-spacing: var(--unnamed-character-spacing-4-8);
-                color: var(--unnamed-color-858688);
+                font: var(--font-style-normal) normal var(--font-weight-bold) var(--font-size-24)/var(--line-spacing-42) var(--font-family-tajawal);
+                color: var(--color-858688);
+                letter-spacing: var(--character-spacing-4-8);
+                color: var(--color-858688);
                 letter-spacing: 4.8px;
+            }
+        }
+    }
+}
+
+@media screen and (max-height:900px){
+    .menu{
+        .menuContent{
+            .navigationButtons{
+                .navigationButton{
+                    h2{
+                        font-size: var(--font-size-24);
+                    }
+                    &.active{
+                        .menuIcon{
+                            .menuIconBack::before{
+                                outline: 24px solid var(--color-3b486d);
+                            }
+                        }
+                    }
+                    .menuIcon{
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                    }
+                }
             }
         }
     }

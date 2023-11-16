@@ -6,7 +6,12 @@ import { useEffect, useState } from 'react';
 
 const Content = () => {
 
-  const [films, setFilms] = useState(data);
+  const [films, setFilms] = useState(() => {
+    return {
+      Featured: data.Featured,
+      TendingNow: data.TendingNow.sort((a, b) => new Date(b.Date) - new Date(a.Date)).slice(0, 50)
+    }
+  });
 
   const changeMovie = (movieId) => {
     const storageData = sessionStorage.getItem('lastClickedMovieId') || '[]';

@@ -16,7 +16,7 @@ const Menu = () => {
       <div className='menuContent'>
         <div className='menuTop'>
           <div className='userContent'>
-            <img src={userImage} alt='user-image' />
+            <img src={userImage} alt='user' />
             <h3>Armen</h3>
           </div>
           <div className='navigationButtons'>

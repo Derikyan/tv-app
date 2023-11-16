@@ -28,6 +28,9 @@ const SelectedMovie = ({film}) => {
         setIsPlay(true);
       },2000)
     }
+    return()=>{
+      setIsPlay(false);
+    }
   }, [film]);
 
   return (
@@ -44,7 +47,7 @@ const SelectedMovie = ({film}) => {
           {lorem}
         </p>
         <div className="buttons">
-          <button className="button">
+          <button className="button" onClick={()=>setIsPlay(true)}>
             <img src={play} alt="play" />
             Play
           </button>
