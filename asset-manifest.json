@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Derikyan/tv-app/static/css/main.38056890.css",
+    "main.js": "/Derikyan/tv-app/static/js/main.1e691572.js",
+    "static/js/711.aafb88d9.chunk.js": "/Derikyan/tv-app/static/js/711.aafb88d9.chunk.js",
+    "static/js/729.6ecb7e8c.chunk.js": "/Derikyan/tv-app/static/js/729.6ecb7e8c.chunk.js",
+    "static/js/793.06087f87.chunk.js": "/Derikyan/tv-app/static/js/793.06087f87.chunk.js",
+    "static/js/658.d7ab667e.chunk.js": "/Derikyan/tv-app/static/js/658.d7ab667e.chunk.js",
+    "static/js/645.3c312ef8.chunk.js": "/Derikyan/tv-app/static/js/645.3c312ef8.chunk.js",
+    "static/js/618.b1f9c4bb.chunk.js": "/Derikyan/tv-app/static/js/618.b1f9c4bb.chunk.js",
+    "static/js/485.693680ce.chunk.js": "/Derikyan/tv-app/static/js/485.693680ce.chunk.js",
+    "static/js/569.36720947.chunk.js": "/Derikyan/tv-app/static/js/569.36720947.chunk.js",
+    "static/js/834.e73077c5.chunk.js": "/Derikyan/tv-app/static/js/834.e73077c5.chunk.js",
+    "static/js/665.57a8005a.chunk.js": "/Derikyan/tv-app/static/js/665.57a8005a.chunk.js",
+    "static/media/FeaturedCoverImage.png": "/Derikyan/tv-app/static/media/FeaturedCoverImage.3b40049b902e17981f91.png",
+    "static/media/https_specials-1.png": "/Derikyan/tv-app/static/media/https_specials-1.fc3a28f87943c3bee908.png",
+    "static/media/https_specials-8.png": "/Derikyan/tv-app/static/media/https_specials-8.0048dec35a4cf4cb8ff7.png",
+    "static/media/https_specials-5.png": "/Derikyan/tv-app/static/media/https_specials-5.12810bd3ded58324c48e.png",
+    "static/media/https_specials-6.png": "/Derikyan/tv-app/static/media/https_specials-6.38b6716b26c954e24ba1.png",
+    "static/media/https_specials-7.png": "/Derikyan/tv-app/static/media/https_specials-7.4815e4dcc34b202b203d.png",
+    "static/media/https_specials-2.png": "/Derikyan/tv-app/static/media/https_specials-2.d54d1960d0f6be421cce.png",
+    "static/media/https_specials-4.png": "/Derikyan/tv-app/static/media/https_specials-4.11f6f8ae6020f84cb2f5.png",
+    "static/media/https_specials-3.png": "/Derikyan/tv-app/static/media/https_specials-3.f25ccc61eb857efc7d95.png",
+    "static/media/FeaturedTitleImage.png": "/Derikyan/tv-app/static/media/FeaturedTitleImage.ee484156ac9cc73d829d.png",
+    "static/media/userImage.jpg": "/Derikyan/tv-app/static/media/userImage.869e7780a75661dd4182.jpg",
+    "static/media/revicons.eot": "/Derikyan/tv-app/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Derikyan/tv-app/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Derikyan/tv-app/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/play-icon.webp": "/Derikyan/tv-app/static/media/play-icon.faca3e6f2b90b0881a8b.webp",
+    "index.html": "/Derikyan/tv-app/index.html",
+    "main.38056890.css.map": "/Derikyan/tv-app/static/css/main.38056890.css.map",
+    "main.1e691572.js.map": "/Derikyan/tv-app/static/js/main.1e691572.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38056890.css",
+    "static/js/main.1e691572.js"
+  ]
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktest2=self.webpackChunktest2||[]).push([[711],{711:function(e,t,s){e.exports=s.p+"static/media/FeaturedCoverImage.3b40049b902e17981f91.png"}}]);
