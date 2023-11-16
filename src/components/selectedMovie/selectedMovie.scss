@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
+    display: flex;
     box-shadow: 60px -140px 70px rgba(0, 0, 0, 0.5) inset;
     .selectedTitle{
         text-transform: uppercase;

@@ -54,7 +54,7 @@ const SelectedMovie = ({film}) => {
       </div>
       {isPlay ? 
       <div className="video-container">
-        <video autoPlay className="video-bg" onEnded={()=>{setIsPlay(false)}}>
+        <video autoPlay muted className="video-bg" onEnded={()=>{setIsPlay(false)}}>
           <source src={film.VideoUrl} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
